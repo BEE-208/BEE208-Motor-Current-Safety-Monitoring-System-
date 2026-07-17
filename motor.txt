@@ -1,0 +1,111 @@
+#include "Motor.h"
+
+
+void Motor::setMotorDetails()
+{
+    std::cin.ignore();
+
+    std::cout << "\nEnter Motor Name: ";
+    std::getline(std::cin, motorName);
+
+
+    std::cout << "Enter Rated Current (A): ";
+    std::cin >> ratedCurrent;
+
+
+    std::cout << "Enter Measured Current (A): ";
+    std::cin >> measuredCurrent;
+
+}
+
+
+
+bool Motor::validateDetails()
+{
+
+    if(ratedCurrent <= 0 || measuredCurrent < 0)
+    {
+
+        std::cout << "\nInvalid current values!" << std::endl;
+
+        return false;
+    }
+
+
+    return true;
+
+}
+
+
+
+
+void Motor::checkCurrentStatus()
+{
+
+    currentDifference = measuredCurrent - ratedCurrent;
+
+
+    if(measuredCurrent <= ratedCurrent)
+    {
+        status = "Safe Operation";
+    }
+
+    else
+    {
+        status = "Overload Warning";
+    }
+
+}
+
+
+
+
+
+void Motor::displayMotorReport()
+{
+
+    std::cout << "\n================ MOTOR REPORT ================" << std::endl;
+
+    std::cout << "Motor Name         : " << motorName << std::endl;
+
+    std::cout << "Rated Current      : " << ratedCurrent << " A" << std::endl;
+
+    std::cout << "Measured Current   : " << measuredCurrent << " A" << std::endl;
+
+    std::cout << "Current Difference : " << currentDifference << " A" << std::endl;
+
+    std::cout << "Status             : " << status << std::endl;
+
+}
+
+
+
+
+
+void Motor::saveMotorReport(std::ofstream &file)
+{
+
+    file << "Motor Name         : " << motorName << std::endl;
+
+    file << "Rated Current      : " << ratedCurrent << " A" << std::endl;
+
+    file << "Measured Current   : " << measuredCurrent << " A" << std::endl;
+
+    file << "Current Difference : " << currentDifference << " A" << std::endl;
+
+    file << "Status             : " << status << std::endl;
+
+    file << "---------------------------------------------" << std::endl;
+
+}
+
+
+
+
+
+std::string Motor::getStatus()
+{
+
+    return status;
+
+}
