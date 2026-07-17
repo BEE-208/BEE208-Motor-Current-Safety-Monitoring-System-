@@ -68,22 +68,13 @@ Motor-Current-Safety-Monitoring-System/
 |------|------|
 | Ohene Edward | Project Lead |
 |  | Algorithm |
-| Member 3 | Flowchart |
-| Member 4 | Pseudocode |
-| Member 5 | Testing |
-| Member 6 | Documentation |
+|  | Flowchart |
+|  | Pseudocode |
+|  BAJI MAXWELL| Testing |
+| ELLYS BLISS GEORGE | Documentation |
 | Ananigo Samuel | c++ programmer |
-| Member 8 | GitHub Management |
-
-## Project Lead Responsibilities
-
-The Project Lead:
-- Planned the project.
-- Coordinated team activities.
-- Managed the GitHub repository.
-- Reviewed and integrated team members' work.
-- Ensured the project met all assignment requirements.
-- Prepared the final documentation and presentation.
+| JOHN NLITUGMA | GitHub Management |
+| BENJAMIN DOE | c++ programmer |
 
 ## License
 
