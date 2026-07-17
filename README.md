@@ -67,7 +67,7 @@ Motor-Current-Safety-Monitoring-System/
 | Name | Role |
 |------|------|
 | Ohene Edward | Project Lead |
-|  | Algorithm |
+|Wisdom Tetteh Martey | Algorithm |
 |  | Flowchart |
 |  | Pseudocode |
 |  BAJI MAXWELL| Testing |
