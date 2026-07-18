@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motor Current Safety Monitoring System</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Motor Current Safety Monitoring System</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="report.html">Report</a>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+
+    <div class="container">
+
+        <h2>Motor Safety Checker</h2>
+
+        <label>Motor Name</label>
+
+        <input
+            type="text"
+            id="motorName"
+            placeholder="Enter motor name">
+
+        <label>Rated Current (A)</label>
+
+        <input
+            type="number"
+            id="ratedCurrent"
+            placeholder="Enter rated current">
+
+        <label>Measured Current (A)</label>
+
+        <input
+            type="number"
+            id="measuredCurrent"
+            placeholder="Enter measured current">
+
+        <button onclick="checkMotor()">
+
+            Check Motor
+
+        </button>
+
+        <div id="result">
+
+        </div>
+
+    </div>
+
+    <footer>
+
+        <p>
+            BEE208 Project | Motor Current Safety Monitoring System
+        </p>
+
+    </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
