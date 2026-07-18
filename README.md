@@ -79,3 +79,33 @@ Motor-Current-Safety-Monitoring-System/
 ## License
 
 This project was developed for academic purposes at Accra Technical University.
+
+
+
+GROUP NAMES AND INDEX NUMBER
+
+
+GROUP MEMBERS 
+
+Ohene Edward  - 01242004B 
+
+Wisdom Tetteh Martey - 01243287B 
+
+Boadu Grant Kofi -  01244006B
+
+Nlitugma John - 01244252B
+
+Baji Maxwell - 01244004B
+
+Moses Offei Perbi - 01243254B
+
+DANIEL, JONATHAN AKAO -  01243831B
+
+Ananigo Samuel - 01242980B
+
+Ellys George Bliss - 01245690B  
+
+Doe Benjamin -  01243594B
+
+
+
