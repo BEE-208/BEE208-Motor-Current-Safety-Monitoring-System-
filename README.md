@@ -69,7 +69,7 @@ Motor-Current-Safety-Monitoring-System/
 | Ohene Edward | Project Lead |
 |Wisdom Tetteh Martey | Algorithm |
 |  | Flowchart |
-|  | Pseudocode |
+| Moses Offei Perbi | Pseudocode |
 |  BAJI MAXWELL| Testing |
 | ELLYS BLISS GEORGE | Documentation |
 | Ananigo Samuel | c++ programmer |
